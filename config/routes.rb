@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   resources :todo_lists do
-    resources :todo_items
+    resources :todo_items do
+      member do
+        patch :complete        
+      end
+    end
   end
   devise_for :users
   get 'page_vide' => 'application#page_vide'
