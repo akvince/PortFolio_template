@@ -26,11 +26,11 @@ html {
 
 body {
  	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background: -webkit-linear-gradient(40deg, #2980b9 10%, #ecf0f1 100%);
+  background:    -moz-linear-gradient(40deg, #2980b9 10%, #ecf0f1 100%);
+  background:     -ms-linear-gradient(40deg, #2980b9 10%, #ecf0f1 100%);
+  background:      -o-linear-gradient(40deg, #2980b9 10%, #ecf0f1 100%);
+  background:         linear-gradient(40deg, #2980b9 10%, #ecf0f1 100%);
   font-family: 'Lato', sans-serif;
 }
 
@@ -67,7 +67,7 @@ body {
 	font-weight: 700;
 	font-size: 2.5rem;
 	text-transform: uppercase;
-	color: white;
+	color: lightgray;
 	margin: 0;
 	a {
 		text-decoration: none;
